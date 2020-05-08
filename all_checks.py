@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 # New file
-
+# added new commentXX
 import sys
+import os
 
 def check_reboot():
     return False
