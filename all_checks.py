@@ -2,7 +2,6 @@
 
 # New file
 # added new commentXX
-#added  another comment
 import sys
 import os
 
