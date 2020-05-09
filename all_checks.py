@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # New file
-# added new commentXX
+# added new comment
 import sys
 import os
 
