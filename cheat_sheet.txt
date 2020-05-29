@@ -40,6 +40,6 @@ git commit -a 	: adds all files that are tracked to the staging area
 git commit -a -m "Commit text"
 
 MOVING/DELITING FILES:
-git mv		: similar to linux mv command
-git rm		: similar to linux rm command 
+git mv filename		: similar to linux mv command
+git rm oldname newname	: similar to linux rm command 
 
