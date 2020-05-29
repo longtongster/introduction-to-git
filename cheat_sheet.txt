@@ -1,0 +1,4 @@
+This file contains important git commands and can be revisited if necessary
+
+Skipping the Staging Area:
+git commit -a -adds all files that are tracked to the staging area
