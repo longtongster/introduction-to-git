@@ -7,10 +7,19 @@ Git use the HEAD alias to represent the currently checked-out snapshot of your p
 STATUS:
 git status	: Shows status of the your project. 
 
+DIFFERENCES that are not staged yet:
+git diff	: Shows the difference in the files that have not been committed compared to last commit
+
+
+git add -p	: show and approve each change before staging it
+
 HISTORY of commits:
 git log		: Shows history of all commits
 git log -2	: Shows last 2 commits
-git log -2 -p 	: Shows the details/differences of the last 2 commits 
+git log -2 -p 	: Shows the details/differences of the last 2 commits
+git log --stat 	: Show high level changes, e.g. number of instertion, number of files changes 
+
+git show identifier : Show the changes 
 
 
 SKIPPING the Staging Area:
