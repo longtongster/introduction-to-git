@@ -56,4 +56,9 @@ git checkout all_check.py : restore the last available version of the file in th
 git checkout -p all_check.py : asks if changes need to be saved or not
 
 UNDOING CHANGES - after staging
+git reset all_checks.py	: removes files from the staging area and makes them untracked
+git reset -p : asks which changes should be reset from the staging area
+
+AMENDING COMMITS - overwrite the previous commit
+
 
