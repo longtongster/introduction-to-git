@@ -14,9 +14,4 @@ def main():
         print("All ok, oh nee toch niet")
         sys.exit(0)
 
-
-def oeps()
-  for i in oeps:
-     do oeps
-
 main()
