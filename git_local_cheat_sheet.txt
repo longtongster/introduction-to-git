@@ -7,7 +7,6 @@ git config --global user.name "dikkiedik"
 git config --list : lists all the user details 
 git config user.name : returns the user name that was set
 
-
 CREATE a local repository
 git init : create a local repository
 git clone : to get a copy of a repository that already exists
@@ -60,5 +59,8 @@ git reset all_checks.py	: removes files from the staging area and makes them unt
 git reset -p : asks which changes should be reset from the staging area
 
 AMENDING COMMITS - overwrite the previous commit
+if your commit is incomplete you can add a file and then type:
+git commit --amend : amends the latest commit
+the same commit can also be used to only change the message of the latest commit
 
 
