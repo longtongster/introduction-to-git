@@ -12,6 +12,11 @@ CREATE a local repository
 git init : create a local repository
 git clone : to get a copy of a repository that already exists
 
+ADD FILE - to be tracked
+git add all_checks.py : adds a file to be tracked by git or adds it to stagin area
+git add * adds all files to the staging area
+
+
 LIST of tracked files:
 git ls-tree -r master --name-only
 
@@ -45,4 +50,10 @@ git commit -a -m "Commit text"
 MOVING/DELITING FILES:
 git mv filename		: similar to linux mv command
 git rm oldname newname	: similar to linux rm command 
+
+UNDOING CHANGES - before commiting
+git checkout all_check.py : restore the last available version of the file in the repository
+git checkout -p all_check.py : asks if changes need to be saved or not
+
+UNDOING CHANGES - after staging
 
