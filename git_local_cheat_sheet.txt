@@ -64,3 +64,11 @@ git commit --amend : amends the latest commit
 the same commit can also be used to only change the message of the latest commit
 
 
+ROLLBACKS
+If you lates commit wasn't tested and introduces bugs you can rollback to an earlier commit
+git revert : contains an inverse commit to discard unwanted changes
+git revert HEAD : reverst to the previous commit
+
+
+
+
