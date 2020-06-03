@@ -50,7 +50,7 @@ MOVING/DELITING FILES:
 git mv filename		: similar to linux mv command
 git rm oldname newname	: similar to linux rm command 
 
-UNDOING CHANGES - before commiting
+UNDOING CHANGES - before staging
 git checkout all_check.py : restore the last available version of the file in the repository
 git checkout -p all_check.py : asks if changes need to be saved or not
 
@@ -69,6 +69,15 @@ If you lates commit wasn't tested and introduces bugs you can rollback to an ear
 git revert : contains an inverse commit to discard unwanted changes
 git revert HEAD : reverst to the previous commit
 
+You can rollback to a specific commit by using the commit ID. The commit ID is the 40 
+character string after the word commit in the 'git log'. The commit can normally be identified by about 8 characters of the commit ID.
 
+you can inspect a commit with 
+git show commit_ID
 
+git revert commit_ID : reverts to the repository to that commit
+  
 
+BRANCHES
+git branch : shows a list of all available brances
+git branch new_feature : creates a new_feature branch
