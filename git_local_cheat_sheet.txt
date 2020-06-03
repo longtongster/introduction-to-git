@@ -71,4 +71,6 @@ git revert HEAD : reverst to the previous commit
 
 
 
-
+BRANCHES:
+git checkout new-feature : changes to the new-feature branch
+git checkout -b new-branch : creates and changes to the new branch
