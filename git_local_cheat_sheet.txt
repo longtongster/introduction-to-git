@@ -74,10 +74,16 @@ character string after the word commit in the 'git log'. The commit can normally
 
 you can inspect a commit with 
 git show commit_ID
-
 git revert commit_ID : reverts to the repository to that commit
   
 
 BRANCHES
 git branch : shows a list of all available brances
 git branch new_feature : creates a new_feature branch
+
+git checkout new-feature : changes to the new-feature branch
+git checkout -b new-branch : creates and changes to the new branch
+git branch -d new-feature : to delete the branch new-feature
+
+MERGING:
+git merge new-feature : to merge to new-feature branch onto the master branch
