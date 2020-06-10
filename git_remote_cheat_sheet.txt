@@ -1,3 +1,15 @@
 Overview of commands to work with remote repositories
 
 git clone <url>  : creates a copy of a remote repository
+
+git push : pushes local commits to the remote repository
+
+git pull : pulls the latest version from the remote repository.
+
+If changes are made to the local and remote repositories you have to solve potential
+merge conflicts.
+
+In order to prevent to be asked for credentials every pull or push you can use:
+git config --global credential.helper cache
+
+
