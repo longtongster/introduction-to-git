@@ -1,0 +1,3 @@
+Overview of commands to work with remote repositories
+
+git clone <url>  : creates a copy of a remote repository
