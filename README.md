@@ -2,9 +2,9 @@
 
 This repository is from a course on automation with python from google. 
 
-It contains a python file, a notebook and probably most important is the cheat_sheet file that bundles important commands that are useful. 
+It contains a python file, a notebook and probably most important are the git_local_cheat_sheet, git_remote_cheat_sheet file that bundles important commands that are useful. The cheat sheets are based on the video's from the google course
 
-It is important to NEVER REMOVE THIS REPOSITORY
+It is important to NEVER REMOVE THIS REPOSITORY. In another repository I have a simple project that has some basic unit tests using pytest.
 
 This repo will be populated with lots of fancy checks
 
