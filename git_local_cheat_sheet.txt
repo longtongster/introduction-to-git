@@ -53,8 +53,9 @@ git commit -a 	: adds all files that are tracked to the staging area
 git commit -a -m "Commit text"
 
 MOVING/DELITING FILES:
-git mv filename		: similar to linux mv command
-git rm oldname newname	: similar to linux rm command 
+git rm filename		: similar to linux mv command
+git mv oldname newname	: similar to linux rm command
+git rm --cached filename : file will not be tracked but will not be deleted 
 
 UNDOING CHANGES - before staging
 git checkout all_check.py : restore the last available version of the file in the repository
