@@ -6,6 +6,7 @@ git config --global user.name "dikkiedik"
 
 git config --list : lists all the user details 
 git config user.name : returns the user name that was set
+git config --global core.editor "/usr/bin/nano"  : set the default editor to use
 
 CREATE a local repository
 git init : create a local repository
