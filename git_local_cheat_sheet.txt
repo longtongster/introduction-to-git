@@ -49,6 +49,7 @@ git log --stat 	: Show high level changes, e.g. number of instertion, number of 
 git log --since="4 days ago" : returns all commits submitted in the last 4 days
 git log -S build : returns commits with the word "build"
 git log --pretty=format:"%h - %an - %ar - %s" : print a summary in a user defined format
+git log --grapth : gives a more graphical view on the history of commits with branches
 git log --oneline : gives condenses the information to one line per commit. The first line gives the hash we can use in git diff.
 
 
@@ -94,8 +95,6 @@ once in a while you can clean up the repository for files that can not be reache
 git gc --prune : by default garbage collects items older than 2 weeks
 git gc --auto :
 
-  
-
 BRANCHES
 git branch : shows a list of all available brances
 git branch new_feature : creates a new_feature branch
@@ -106,3 +105,11 @@ git branch -d new-feature : to delete the branch new-feature
 
 MERGING:
 git merge new-feature : to merge to new-feature branch onto the master branch
+
+CLONING A LOCAL REPOSITORY:
+can be used to test things without messing up the repository. You can do work on a new feature
+and once everything works you could create a branch for this new feature in your
+main repository (why not use git branch directly?)
+git clone <rep name> <copy name>
+
+
