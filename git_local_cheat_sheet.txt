@@ -46,7 +46,11 @@ git log		: Shows history of all commits
 git log -2	: Shows last 2 commits
 git log -2 -p 	: Shows the details/differences of the last 2 commits
 git log --stat 	: Show high level changes, e.g. number of instertion, number of files changes 
+git log --since="4 days ago" : returns all commits submitted in the last 4 days
+git log -S build : returns commits with the word "build"
+git log --pretty=format:"%h - %an - %ar - %s" : print a summary in a user defined format
 git log --oneline : gives condenses the information to one line per commit. The first line gives the hash we can use in git diff.
+
 
 git show hashingkey : Show the changes for the commit with this hasing key 
 
