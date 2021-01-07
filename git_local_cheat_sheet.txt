@@ -84,6 +84,12 @@ character string after the word commit in the 'git log'. The commit can normally
 you can inspect a commit with 
 git show commit_ID
 git revert commit_ID : reverts to the repository to that commit
+
+GARBAGE COLLECTION:
+once in a while you can clean up the repository for files that can not be reached and compress
+git gc --prune : by default garbage collects items older than 2 weeks
+git gc --auto :
+
   
 
 BRANCHES
