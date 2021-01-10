@@ -2,6 +2,11 @@ Overview of commands to work with remote repositories
 
 git clone <url>  : creates a copy of a remote repository
 
+git remote -v : show the remote repository from which we cloned the repo
+git remote show origin: gives even more informatoin on the origin
+
+git fetch origin: tracks the remote repository. Everything that is new gets pulled in our local rep.Also important because it can be used to check that any changes you have made do not conflict with changes of someone else. What you fetch is not part of the local repository until you merge it. you need to solve any merge conflicts before you push them. 
+
 git push : pushes local commits to the remote repository
 
 git pull : pulls the latest version from the remote repository.
