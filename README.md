@@ -1,6 +1,6 @@
 # health-check
 
-This repository is from a course on automation with python from google. 
+This repository is based on a course on automation with python from google. The files mentioned below have been extended based on other courses from datacamp and linuxacademy.  
 
 It contains a python file, a notebook and probably most important are the git_local_cheat_sheet, git_remote_cheat_sheet file that bundles important commands that are useful. The cheat sheets are based on the video's from the google course
 
