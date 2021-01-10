@@ -16,6 +16,7 @@ git init directoryname : turns an existing directory into a git directory
 
 CLONE a repository
 git clone url : to get a copy of a repository that already exists
+git clone --local <location> <new_location> : to clone a local repository
 
 ADD FILE - to be tracked
 git add all_checks.py : adds a file to be tracked by git or adds it to stagin area
