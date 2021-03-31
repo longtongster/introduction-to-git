@@ -1,4 +1,4 @@
-# health-check
+# Introduction to Git
 
 This repository is based on a course on automation with python from google. The files mentioned below have been extended based on other courses from datacamp and linuxacademy.  
 
