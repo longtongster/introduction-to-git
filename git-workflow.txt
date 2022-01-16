@@ -5,3 +5,10 @@ git status (to check the status)
 git add -A (add changes to staging area)
 git commit -m "<message>"
 git push -u origin divide (push the branch to the origin, for testing etc)
+git checkout main
+git pull (to make sure you have the latest available data on main)
+git merge <name-of-branch> (merge the branch with main)
+git push origin main (update the central repository with code from new branch)
+git branch -a (list all branches also in origin)
+git branch -d <name-of-branch> (delete local branch)
+git push origin --delete <name-of-branch> (delete branch from origin)
