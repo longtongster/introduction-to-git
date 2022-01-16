@@ -1,0 +1,7 @@
+git branch <name-of-branch>
+git checkout <name-of-branch>
+<make your changes>
+git status (to check the status)
+git add -A (add changes to staging area)
+git commit -m "<message>"
+git push -u origin divide (push the branch to the origin, for testing etc)
