@@ -1,0 +1,7 @@
+git ls_files - list files in staging area
+git ls_files -s - show filenames and sha1 hashes of files in staging area
+
+# look inside the blobs, trees or commits used by git to store data
+git cat-file -p <few-digits of sha1 hash> - get the contents
+git cat-file -s <few-digits of sha1 hash> - get the size
+git cat-file -t <few-digits of sha1 hash> - get the type of the object
