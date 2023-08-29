@@ -1,5 +1,5 @@
-git branch <name-of-branch>
-git checkout <name-of-branch>
+git branch <name-of-branch> - this creates a new branch called <name-of-branch>
+git checkout <name-of-branch> - switches to the <name-of-branch>
 <make your changes>
 git status (to check the status)
 git add -A (add changes to staging area)
