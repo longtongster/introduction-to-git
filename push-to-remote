@@ -1,0 +1,16 @@
+# If you already have a local repo and you want to push it to github execute the following steps:
+# 1 create a repo on github without any README or other files. e.g test.
+# use the url of the repo 
+# https://github.com/longtongster/test.git
+
+# on your local machine 
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/longtongster/test.git
+git push -u origin master
+ 
+# Push an existing repository from the command line
+git remote add origin https://github.com/c0ldlimit/vimcolors.git
+git push -u origin master
