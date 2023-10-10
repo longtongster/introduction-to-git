@@ -7,6 +7,8 @@ git remote show origin: gives even more informatoin on the origin
 
 git branch -vv : shows which branch you are checking locally. By default you will track the main/master branch in the origin (remote repo)
 
+git show-ref: shows all references local as well as remote
+
 git fetch origin: tracks the remote repository. Everything that is new gets pulled in our local rep.Also important because it can be used to check that any changes you have made do not conflict with changes of someone else. What you fetch is not part of the local repository until you merge it. you need to solve any merge conflicts before you push them. 
 
 git push : pushes local commits to the remote repository
