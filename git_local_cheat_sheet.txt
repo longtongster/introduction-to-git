@@ -54,6 +54,8 @@ git log --graph : gives a more graphical view on the history of commits with bra
 git log --oneline : gives condenses the information to one line per commit. The first line gives the hash we can use in git diff.
 git log --oneline --graph: combine two commands
 
+git shortlog -n -s -e: information of commits per author 
+
 git show hashingkey : Show the changes for the commit with this hasing key 
 
 SKIPPING the Staging Area:
