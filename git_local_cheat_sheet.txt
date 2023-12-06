@@ -4,6 +4,10 @@ SETTING user.name / email
 git config --global user.email "sacha.van.weeren@gmail.com"
 git config --global user.name "dikkiedik"
 
+# git has three level:
+#   --local for a specific project,
+#   --global for all your projects, 
+#   --system every user for this computer
 git config --list : lists all the user details 
 git config user.name : returns the user name that was set
 git config user.name "sappie" : if this command is called in a specific git directory only the user.name for this project is adjusted. (--global is not used)
