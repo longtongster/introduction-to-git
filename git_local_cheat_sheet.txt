@@ -70,9 +70,13 @@ git rm --cached filename : file will not be tracked but will not be deleted
 UNDOING CHANGES - before staging
 git checkout all_check.py : restore the last available version of the file in the repository
 git checkout -p all_check.py : asks if changes need to be saved or not
+git checkout <commit hash> filename.py : replaces the filename.py with the version from a specific commit
+git checkout HEAD~2 filename.py : replaces the filename.py with the version two commits before the current head
+git checkout <commit hash> : replace all files in working directory with the ones from previous version
 
 UNDOING CHANGES - after staging
-git reset all_checks.py	: removes files from the staging area and makes them untracked
+git reset HEAD all_checks.py	: removes a file from the staging area and makes them untracked
+git reset HEAD : removes all files from the staging area
 git reset -p : asks which changes should be reset from the staging area
 
 AMENDING COMMITS - overwrite the previous commit
@@ -97,6 +101,9 @@ GARBAGE COLLECTION:
 once in a while you can clean up the repository for files that can not be reached and compress
 git gc --prune : by default garbage collects items older than 2 weeks
 git gc --auto :
+
+git clean -n : see all untracked files
+git clean -f : delete all untracked files
 
 BRANCHES
 git branch : shows a list of all available brances
